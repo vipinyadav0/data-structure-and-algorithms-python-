@@ -23,7 +23,7 @@ Output: [0,1]
 
 '''
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums, target: int):
         prevMap = {} # val -> index
         
         for i, n in enumerate(nums):
